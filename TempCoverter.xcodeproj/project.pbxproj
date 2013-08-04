@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CDA73D817AED04C00E1E272 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDA73D717AED04C00E1E272 /* Foundation.framework */; };
+		2CDA73DA17AED04C00E1E272 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDA73D917AED04C00E1E272 /* CoreGraphics.framework */; };
+		2CDA73DC17AED04C00E1E272 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDA73DB17AED04C00E1E272 /* UIKit.framework */; };
+		2CDA73E217AED04C00E1E272 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CDA73E017AED04C00E1E272 /* InfoPlist.strings */; };
+		2CDA73E417AED04D00E1E272 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDA73E317AED04D00E1E272 /* main.m */; };
+		2CDA73E817AED04D00E1E272 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDA73E717AED04D00E1E272 /* AppDelegate.m */; };
+		2CDA73EA17AED04D00E1E272 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CDA73E917AED04D00E1E272 /* Images.xcassets */; };
+		2CDA73F117AED04D00E1E272 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDA73F017AED04D00E1E272 /* XCTest.framework */; };
+		2CDA73F217AED04D00E1E272 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDA73D717AED04C00E1E272 /* Foundation.framework */; };
+		2CDA73F317AED04D00E1E272 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDA73DB17AED04C00E1E272 /* UIKit.framework */; };
+		2CDA73FB17AED04D00E1E272 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CDA73F917AED04D00E1E272 /* InfoPlist.strings */; };
+		2CDA73FD17AED04D00E1E272 /* TempCoverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDA73FC17AED04D00E1E272 /* TempCoverterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CDA73F417AED04D00E1E272 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CDA73CC17AED04C00E1E272 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CDA73D317AED04C00E1E272;
+			remoteInfo = TempCoverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CDA73D417AED04C00E1E272 /* TempCoverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempCoverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CDA73D717AED04C00E1E272 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2CDA73D917AED04C00E1E272 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2CDA73DB17AED04C00E1E272 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2CDA73DF17AED04C00E1E272 /* TempCoverter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TempCoverter-Info.plist"; sourceTree = "<group>"; };
+		2CDA73E117AED04C00E1E272 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2CDA73E317AED04D00E1E272 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CDA73E517AED04D00E1E272 /* TempCoverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TempCoverter-Prefix.pch"; sourceTree = "<group>"; };
+		2CDA73E617AED04D00E1E272 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2CDA73E717AED04D00E1E272 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2CDA73E917AED04D00E1E272 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2CDA73EF17AED04D00E1E272 /* TempCoverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempCoverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CDA73F017AED04D00E1E272 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2CDA73F817AED04D00E1E272 /* TempCoverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TempCoverterTests-Info.plist"; sourceTree = "<group>"; };
+		2CDA73FA17AED04D00E1E272 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2CDA73FC17AED04D00E1E272 /* TempCoverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempCoverterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CDA73D117AED04C00E1E272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDA73DA17AED04C00E1E272 /* CoreGraphics.framework in Frameworks */,
+				2CDA73DC17AED04C00E1E272 /* UIKit.framework in Frameworks */,
+				2CDA73D817AED04C00E1E272 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CDA73EC17AED04D00E1E272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDA73F117AED04D00E1E272 /* XCTest.framework in Frameworks */,
+				2CDA73F317AED04D00E1E272 /* UIKit.framework in Frameworks */,
+				2CDA73F217AED04D00E1E272 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CDA73CB17AED04C00E1E272 = {
+			isa = PBXGroup;
+			children = (
+				2CDA73DD17AED04C00E1E272 /* TempCoverter */,
+				2CDA73F617AED04D00E1E272 /* TempCoverterTests */,
+				2CDA73D617AED04C00E1E272 /* Frameworks */,
+				2CDA73D517AED04C00E1E272 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CDA73D517AED04C00E1E272 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CDA73D417AED04C00E1E272 /* TempCoverter.app */,
+				2CDA73EF17AED04D00E1E272 /* TempCoverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CDA73D617AED04C00E1E272 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CDA73D717AED04C00E1E272 /* Foundation.framework */,
+				2CDA73D917AED04C00E1E272 /* CoreGraphics.framework */,
+				2CDA73DB17AED04C00E1E272 /* UIKit.framework */,
+				2CDA73F017AED04D00E1E272 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CDA73DD17AED04C00E1E272 /* TempCoverter */ = {
+			isa = PBXGroup;
+			children = (
+				2CDA73E617AED04D00E1E272 /* AppDelegate.h */,
+				2CDA73E717AED04D00E1E272 /* AppDelegate.m */,
+				2CDA73E917AED04D00E1E272 /* Images.xcassets */,
+				2CDA73DE17AED04C00E1E272 /* Supporting Files */,
+			);
+			path = TempCoverter;
+			sourceTree = "<group>";
+		};
+		2CDA73DE17AED04C00E1E272 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CDA73DF17AED04C00E1E272 /* TempCoverter-Info.plist */,
+				2CDA73E017AED04C00E1E272 /* InfoPlist.strings */,
+				2CDA73E317AED04D00E1E272 /* main.m */,
+				2CDA73E517AED04D00E1E272 /* TempCoverter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CDA73F617AED04D00E1E272 /* TempCoverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CDA73FC17AED04D00E1E272 /* TempCoverterTests.m */,
+				2CDA73F717AED04D00E1E272 /* Supporting Files */,
+			);
+			path = TempCoverterTests;
+			sourceTree = "<group>";
+		};
+		2CDA73F717AED04D00E1E272 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CDA73F817AED04D00E1E272 /* TempCoverterTests-Info.plist */,
+				2CDA73F917AED04D00E1E272 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CDA73D317AED04C00E1E272 /* TempCoverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CDA740017AED04D00E1E272 /* Build configuration list for PBXNativeTarget "TempCoverter" */;
+			buildPhases = (
+				2CDA73D017AED04C00E1E272 /* Sources */,
+				2CDA73D117AED04C00E1E272 /* Frameworks */,
+				2CDA73D217AED04C00E1E272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TempCoverter;
+			productName = TempCoverter;
+			productReference = 2CDA73D417AED04C00E1E272 /* TempCoverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CDA73EE17AED04D00E1E272 /* TempCoverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CDA740317AED04D00E1E272 /* Build configuration list for PBXNativeTarget "TempCoverterTests" */;
+			buildPhases = (
+				2CDA73EB17AED04D00E1E272 /* Sources */,
+				2CDA73EC17AED04D00E1E272 /* Frameworks */,
+				2CDA73ED17AED04D00E1E272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CDA73F517AED04D00E1E272 /* PBXTargetDependency */,
+			);
+			name = TempCoverterTests;
+			productName = TempCoverterTests;
+			productReference = 2CDA73EF17AED04D00E1E272 /* TempCoverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CDA73CC17AED04C00E1E272 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Prasanth Sivanappan";
+				TargetAttributes = {
+					2CDA73EE17AED04D00E1E272 = {
+						TestTargetID = 2CDA73D317AED04C00E1E272;
+					};
+				};
+			};
+			buildConfigurationList = 2CDA73CF17AED04C00E1E272 /* Build configuration list for PBXProject "TempCoverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2CDA73CB17AED04C00E1E272;
+			productRefGroup = 2CDA73D517AED04C00E1E272 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CDA73D317AED04C00E1E272 /* TempCoverter */,
+				2CDA73EE17AED04D00E1E272 /* TempCoverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CDA73D217AED04C00E1E272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDA73E217AED04C00E1E272 /* InfoPlist.strings in Resources */,
+				2CDA73EA17AED04D00E1E272 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CDA73ED17AED04D00E1E272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDA73FB17AED04D00E1E272 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CDA73D017AED04C00E1E272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDA73E817AED04D00E1E272 /* AppDelegate.m in Sources */,
+				2CDA73E417AED04D00E1E272 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CDA73EB17AED04D00E1E272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDA73FD17AED04D00E1E272 /* TempCoverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CDA73F517AED04D00E1E272 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CDA73D317AED04C00E1E272 /* TempCoverter */;
+			targetProxy = 2CDA73F417AED04D00E1E272 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CDA73E017AED04C00E1E272 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CDA73E117AED04C00E1E272 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2CDA73F917AED04D00E1E272 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CDA73FA17AED04D00E1E272 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CDA73FE17AED04D00E1E272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2CDA73FF17AED04D00E1E272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CDA740117AED04D00E1E272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TempCoverter/TempCoverter-Prefix.pch";
+				INFOPLIST_FILE = "TempCoverter/TempCoverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2CDA740217AED04D00E1E272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TempCoverter/TempCoverter-Prefix.pch";
+				INFOPLIST_FILE = "TempCoverter/TempCoverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2CDA740417AED04D00E1E272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TempCoverter.app/TempCoverter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TempCoverter/TempCoverter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TempCoverterTests/TempCoverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2CDA740517AED04D00E1E272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TempCoverter.app/TempCoverter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TempCoverter/TempCoverter-Prefix.pch";
+				INFOPLIST_FILE = "TempCoverterTests/TempCoverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CDA73CF17AED04C00E1E272 /* Build configuration list for PBXProject "TempCoverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CDA73FE17AED04D00E1E272 /* Debug */,
+				2CDA73FF17AED04D00E1E272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CDA740017AED04D00E1E272 /* Build configuration list for PBXNativeTarget "TempCoverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CDA740117AED04D00E1E272 /* Debug */,
+				2CDA740217AED04D00E1E272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CDA740317AED04D00E1E272 /* Build configuration list for PBXNativeTarget "TempCoverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CDA740417AED04D00E1E272 /* Debug */,
+				2CDA740517AED04D00E1E272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CDA73CC17AED04C00E1E272 /* Project object */;
+}
