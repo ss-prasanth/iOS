@@ -19,6 +19,8 @@
 		2CDA73F317AED04D00E1E272 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDA73DB17AED04C00E1E272 /* UIKit.framework */; };
 		2CDA73FB17AED04D00E1E272 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CDA73F917AED04D00E1E272 /* InfoPlist.strings */; };
 		2CDA73FD17AED04D00E1E272 /* TempCoverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDA73FC17AED04D00E1E272 /* TempCoverterTests.m */; };
+		2CDA740917AED0AC00E1E272 /* TempController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDA740717AED0AC00E1E272 /* TempController.m */; };
+		2CDA740A17AED0AC00E1E272 /* TempController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CDA740817AED0AC00E1E272 /* TempController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		2CDA73F817AED04D00E1E272 /* TempCoverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TempCoverterTests-Info.plist"; sourceTree = "<group>"; };
 		2CDA73FA17AED04D00E1E272 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2CDA73FC17AED04D00E1E272 /* TempCoverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempCoverterTests.m; sourceTree = "<group>"; };
+		2CDA740617AED0AC00E1E272 /* TempController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempController.h; sourceTree = "<group>"; };
+		2CDA740717AED0AC00E1E272 /* TempController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempController.m; sourceTree = "<group>"; };
+		2CDA740817AED0AC00E1E272 /* TempController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TempController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				2CDA73E717AED04D00E1E272 /* AppDelegate.m */,
 				2CDA73E917AED04D00E1E272 /* Images.xcassets */,
 				2CDA73DE17AED04C00E1E272 /* Supporting Files */,
+				2CDA740617AED0AC00E1E272 /* TempController.h */,
+				2CDA740717AED0AC00E1E272 /* TempController.m */,
+				2CDA740817AED0AC00E1E272 /* TempController.xib */,
 			);
 			path = TempCoverter;
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 			files = (
 				2CDA73E217AED04C00E1E272 /* InfoPlist.strings in Resources */,
 				2CDA73EA17AED04D00E1E272 /* Images.xcassets in Resources */,
+				2CDA740A17AED0AC00E1E272 /* TempController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +250,7 @@
 			files = (
 				2CDA73E817AED04D00E1E272 /* AppDelegate.m in Sources */,
 				2CDA73E417AED04D00E1E272 /* main.m in Sources */,
+				2CDA740917AED0AC00E1E272 /* TempController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
